@@ -64,3 +64,7 @@
 
 // viewing changes that are already staged
 --> git diff --staged
+
+// deleting files
+--> git rm file-name.extension
+--> git commit -m "deletion message"
