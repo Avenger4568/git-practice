@@ -17,5 +17,37 @@
   source ~/.git-completion.bash
   fi
 
+  // git help command
+  --> git help "command name"
+
   // how to initialize or start tracking a repository
 --> git init
+
+// how to add all files from working directory to staging index
+--> git add .
+
+// how to commit from staging index to repository
+--> git commit -m "good message"
+
+// viewing the commit log
+--> git log
+
+// viewing the status
+--> git status
+
+// git is a three tree architecture
+   Repository ---- staging index ---- working directory
+
+// how git track the changes
+--> using SHA-1 or checksum Algorithm
+--> SHA-1 is a 40 hexadecimal string (0-9 a-f)
+
+// HEAD in git
+--> HEAD always point to the last commit in the repository
+--> git log HEAD // will display the last SHA-1
+
+// div deep in HEAD
+--> cat HEAD [result refs/heads/master]
+--> cd refs
+--> cd heads
+--> cat master [will be always showing the last commit HEAD]
