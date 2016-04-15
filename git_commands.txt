@@ -32,6 +32,13 @@
 // viewing the commit log
 --> git log
 
+// to show the last 5 commits
+--> git log -n 5
+// using since and until and author name etc with log command
+--> git log --since=date
+--> git log --until=date
+--> git log --author=author name
+
 // viewing the status
 --> git status
 
@@ -51,3 +58,9 @@
 --> cd refs
 --> cd heads
 --> cat master [will be always showing the last commit HEAD]
+
+// viewing changes with diff comparing versions
+--> git diff
+
+// viewing changes that are already staged
+--> git diff --staged
