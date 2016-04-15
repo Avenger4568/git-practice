@@ -1,3 +1,9 @@
+commit 3f79ac226b401f1dbf1cc5c606be2b023671619d
+Author: Ishtiaq hussain <leedsuk001@yahoo.co.uk>
+Date:   Fri Apr 15 12:23:16 2016 -0700
+
+    log.txt holds the log history using command > git log > log.txt
+
 commit dce872f0c72c12db04e955e4bd06bea6dc7239af
 Author: Ishtiaq hussain <leedsuk001@yahoo.co.uk>
 Date:   Fri Apr 15 12:08:05 2016 -0700
