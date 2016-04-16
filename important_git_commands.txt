@@ -40,7 +40,27 @@
 // using since and until and author name etc with log command
 --> git log --since=date
 --> git log --until=date
---> git log --author=author name
+--> git log --author="author name"
+--> git log --oneline
+--> git log --oneline -5
+--> git log --grep="regular expression"
+--> git log SHA-1..SHA-1 --oneline
+--> git log SHA-1.. index.html
+--> git log -p
+--> git log -p SHA-1.. index.html
+--> git log --stat --summary
+--> git log --format=oneline
+--> git log --format=short
+--> git log --format=full / fuller / email
+--> git log --oneline --graph --all --decorate
+--> git log show SHA-1
+
+// comparing commits
+--> git diff SHA-1
+--> git diff SHA-1..SHA-1
+--> git diff --stat --summary SHA-1..SHA-1
+--> git diff -b SHA-1..SHA-1
+--> git diff -w SHA-1..SHA-1
 
 // viewing the status
 --> git status
