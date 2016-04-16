@@ -123,6 +123,8 @@
 
 // comparing branches
 --> git diff branch..branch
+// the best way to check changes that are merged is:
+--> git branch --merged
 
 // can also see where git stores these info
 --> cat .git/config
