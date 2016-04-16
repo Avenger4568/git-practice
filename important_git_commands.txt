@@ -118,7 +118,6 @@
 
 // how to undo changes in the working directory
 --> git checkout -- file-name // -- means stay in the same branch
-<<<<<<< HEAD
 
 // un-staging files that are staged
 --> git reset HEAD filename
@@ -148,5 +147,3 @@
 
 // to ignore already tracked file
 --> git rm --cached filename
-=======
->>>>>>> 75db3e14f23551951d951623d0d5a61b6b15f107
