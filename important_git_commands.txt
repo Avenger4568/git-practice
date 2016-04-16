@@ -137,6 +137,9 @@
 --> git merge branch-name (this is fast merge)
 --> git merge --no-ff branch-name (no fast merge good if you want to add documentation)
 
+// aborting the merge incase of conflict
+--> git merge --abort
+
 // can also see where git stores these info
 --> cat .git/config
 
