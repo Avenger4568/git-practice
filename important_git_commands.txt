@@ -81,3 +81,17 @@
 // pushing local repository into github
 --> git remote add <alias> <url>
 --> git remote add origin https://github.com/Avenger4568/git-practice.git
+--> git remote
+--> git remote -v
+--> git branch
+--> git branch -r // will show the remote branches
+--> git branch -a // will show both local and remote
+
+// can also see where git stores these info
+--> cat .git/config
+
+// removing the remote repository
+--> git remote rm origin
+
+// to push changes to remote repository or creating a remote branch
+--> git push -u origin master
