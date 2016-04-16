@@ -195,3 +195,4 @@
 
 // deleting stashed changes
 --> git stash drop stash@{index}
+--> git stash clear
