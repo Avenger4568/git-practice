@@ -104,3 +104,9 @@
 
 // amending the last commit adding the changes to the last commit.
 --> git commit --amend -m "message"
+
+// retrieving older version of file
+--> git checkout SHA-1 filename // SHA-1 must be the first 8 or 10 characters of the commit you want to retrieve.
+
+// reverting a commit
+--> git revert SHA-1
