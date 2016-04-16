@@ -103,9 +103,22 @@
 --> git remote add origin https://github.com/Avenger4568/git-practice.git
 --> git remote
 --> git remote -v
+
+// Branching
 --> git branch
 --> git branch -r // will show the remote branches
 --> git branch -a // will show both local and remote
+
+// information about branches are always stored in heads directory
+--> cat .git/refs/heads
+
+// creating a new branch
+--> git branch new-branch-name
+
+// switching branches or checking out new branch
+--> git checkout branch-name
+// * branch name // * shows the active branch
+
 
 // can also see where git stores these info
 --> cat .git/config
