@@ -61,6 +61,9 @@
 
 // viewing changes with diff comparing versions
 --> git diff
+--> git diff filename.txt
+--> git diff color-words filename
+--> git diff -w
 
 // viewing changes that are already staged
 --> git diff --staged
