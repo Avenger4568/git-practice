@@ -29,6 +29,9 @@
 // how to commit from staging index to repository
 --> git commit -m "good message"
 
+// adding and committing using single command
+--> git commit -am "message"
+
 // viewing the commit log
 --> git log
 
