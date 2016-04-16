@@ -126,6 +126,9 @@
 // the best way to check changes that are merged is:
 --> git branch --merged
 
+// renaming branch
+--> git branch -m old-name new-name
+
 // can also see where git stores these info
 --> cat .git/config
 
