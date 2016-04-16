@@ -118,7 +118,8 @@
 // switching branches or checking out new branch
 --> git checkout branch-name
 // * branch name // * shows the active branch
-
+// creating and switching branch in a single command
+--> git checkout -b branch-name
 
 // can also see where git stores these info
 --> cat .git/config
