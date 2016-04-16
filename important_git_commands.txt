@@ -129,6 +129,10 @@
 // renaming branch
 --> git branch -m old-name new-name
 
+// deleting branch
+--> git branch -d branch name
+--> git branch -D branch name
+
 // can also see where git stores these info
 --> cat .git/config
 
