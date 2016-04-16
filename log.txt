@@ -1,3 +1,45 @@
+commit 8fc100ab98383c4ac61ac8a6bd5c37dc4e5d7428
+Author: Ishtiaq hussain <leedsuk001@yahoo.co.uk>
+Date:   Fri Apr 15 20:29:47 2016 -0700
+
+    how to clean untracked files
+
+commit 70790631d6abbbab5ad1e51a3e2313115673965c
+Author: Ishtiaq hussain <leedsuk001@yahoo.co.uk>
+Date:   Fri Apr 15 20:21:21 2016 -0700
+
+    Commands how and when to use --soft, --mixed and --hard reset
+
+commit 4d1273e023549d6f2ebb27009329169c46458b43
+Author: Ishtiaq hussain <leedsuk001@yahoo.co.uk>
+Date:   Fri Apr 15 19:48:36 2016 -0700
+
+    reverted the last commit
+
+commit f04e9c98f52d21a43e57ac05aa704a97a4bb02c1
+Author: Ishtiaq hussain <leedsuk001@yahoo.co.uk>
+Date:   Fri Apr 15 19:43:53 2016 -0700
+
+    commit to be reverted
+
+commit b9186716bfc1f50f167a43604fda1965cfc71b0c
+Author: Ishtiaq hussain <leedsuk001@yahoo.co.uk>
+Date:   Fri Apr 15 19:42:34 2016 -0700
+
+    how to retrievew and revert commit
+
+commit 01f1e336307f03535e832a09ad60a927453f40a2
+Author: Ishtiaq hussain <leedsuk001@yahoo.co.uk>
+Date:   Fri Apr 15 19:12:38 2016 -0700
+
+    how to undo working directory, unstaging files , amending commits
+
+commit d4c88ae7765787cdc7e818a3848d26ded18f2695
+Author: Ishtiaq hussain <leedsuk001@yahoo.co.uk>
+Date:   Fri Apr 15 18:47:10 2016 -0700
+
+    uptodate log file
+
 commit 895bb1b3cc263d2cf3a8a2c5fcc8981acaf9bac4
 Author: Ishtiaq hussain <leedsuk001@yahoo.co.uk>
 Date:   Fri Apr 15 18:43:57 2016 -0700
