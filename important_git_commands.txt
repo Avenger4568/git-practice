@@ -95,3 +95,6 @@
 
 // to push changes to remote repository or creating a remote branch
 --> git push -u origin master
+
+// how to undo changes in the working directory
+--> git checkout -- file-name // -- means stay in the same branch
