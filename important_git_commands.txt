@@ -124,3 +124,6 @@
 --> git clean -n // this will move files from staging index
 // to working directory to be ready for removal
 --> git clean -f // this will remove all the working directory files.
+
+// to ignore already tracked file
+--> git rm --cached filename
