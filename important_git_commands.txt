@@ -180,3 +180,11 @@
 
 // to ignore already tracked file
 --> git rm --cached filename
+
+// stashing changes
+--> git stash save "message"
+
+// viewing stash
+--> git stash list
+
+//
