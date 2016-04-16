@@ -119,3 +119,8 @@
 --> git reset --soft SHA-1
 --> git reset --mixed SHA-1
 --> git reset --hard SHA-1
+
+// removing untracked files
+--> git clean -n // this will move files from staging index
+// to working directory to be ready for removal
+--> git clean -f // this will remove all the working directory files.
