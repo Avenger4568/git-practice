@@ -68,3 +68,6 @@
 // deleting files
 --> git rm file-name.extension
 --> git commit -m "deletion message"
+
+// moving and renaming files
+--> git mv original-file-name new-file-name
