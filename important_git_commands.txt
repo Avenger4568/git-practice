@@ -110,3 +110,12 @@
 
 // reverting a commit
 --> git revert SHA-1
+
+// dangerous and power full reset command to reset multiple commits
+// the safe way --soft only change the pointer
+// mixed way --mixed change the staging index to match repository
+// does not change working repository
+// hard way --hard changing staging and working directory both to match repository
+--> git reset --soft SHA-1
+--> git reset --mixed SHA-1
+--> git reset --hard SHA-1
