@@ -189,3 +189,9 @@
 --> git stash show stash@{0}
 --> git stash show -p stash@{0}
 --> git stash pop stash@{index}
+
+// retrieving stashed changes
+--> git stash pop stash@{index} // or apply
+
+// deleting stashed changes
+--> git stash drop stash@{index}
