@@ -121,6 +121,9 @@
 // creating and switching branch in a single command
 --> git checkout -b branch-name
 
+// comparing branches
+--> git diff branch..branch
+
 // can also see where git stores these info
 --> cat .git/config
 
