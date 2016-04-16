@@ -133,6 +133,9 @@
 --> git branch -d branch name
 --> git branch -D branch name
 
+// merging branches make sure you are on the receiving branch.
+--> git merge branch-name
+
 // can also see where git stores these info
 --> cat .git/config
 
